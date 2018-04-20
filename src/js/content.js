@@ -104,6 +104,7 @@ const update = () => {
 
       if (isGitHub) {
         icon.className = `icon octicon ${className} ${darkClassName}`;
+        icon.style.opacity = 1;
       } else {
         icon.className = `${className} ${darkClassName}`;
         icon.style.marginRight = host === 'bitbucket' ? '10px' : '3px';

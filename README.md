@@ -24,6 +24,8 @@
 
 ## Options
 
+> Right click the icon of the Add-On
+
 <img width="320" alt="screen shot 2019-01-28 at 18 45 06" src="https://user-images.githubusercontent.com/12113222/51821342-f22bca00-232c-11e9-93f8-8b854a9c1558.png">
 
 ### Change image colors
