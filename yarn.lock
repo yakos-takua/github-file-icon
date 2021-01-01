@@ -5678,9 +5678,10 @@ webext-additional-permissions@^0.1.0:
   dependencies:
     "@types/chrome" "0.0.86"
 
-webext-detect-page@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/webext-detect-page/-/webext-detect-page-1.0.3.tgz#a0d6107e5e14c9b10e3707f64ff6504c49fded5d"
+webext-detect-page@^2.0.4:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/webext-detect-page/-/webext-detect-page-2.0.5.tgz#132b59bfc4886c548c13c6f1a0fc4aba80603b9c"
+  integrity sha512-yyWDNgR+cb9jpSU5HIt31vMUo4j8E5P4oqQaDsmiToe++uGYnFzhQeyn1r/i3i6CfCO7GkGOr/mCmycS79dJog==
 
 webext-domain-permission-toggle@^1.0.0:
   version "1.0.0"
@@ -5697,13 +5698,14 @@ webext-dynamic-content-scripts@^6.0.3-0:
     webext-additional-permissions "^0.1.0"
     webext-permissions-events-polyfill "^1.0.1"
 
-webext-options-sync@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/webext-options-sync/-/webext-options-sync-1.0.0.tgz#a42e9be066a64c52604feed51afd446fb9e716d4"
+webext-options-sync@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/webext-options-sync/-/webext-options-sync-1.2.4.tgz#3df41bcb063e9790471cc121cbec55b2ba2aaf21"
+  integrity sha512-2B9XA3xZeSUw7c+xqCns0i6mL175mOgp+hLwdojBQzodmPh3im0jqtA/5hz/Zc9qkQhLMYAi5dLoqD8C7Q7h9Q==
   dependencies:
     dom-form-serializer "^1.0.7"
     throttle-debounce "^2.1.0"
-    webext-detect-page "^1.0.2"
+    webext-detect-page "^2.0.4"
 
 webext-permissions-events-polyfill@^1.0.1:
   version "1.0.1"

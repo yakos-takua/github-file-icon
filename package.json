@@ -26,7 +26,7 @@
     "select-dom": "^5.1.0",
     "webext-domain-permission-toggle": "^1.0.0",
     "webext-dynamic-content-scripts": "^6.0.3-0",
-    "webext-options-sync": "^1.0.0"
+    "webext-options-sync": "^1.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
