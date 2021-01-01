@@ -735,6 +735,14 @@
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/@types/anymatch/-/anymatch-1.3.1.tgz#336badc1beecb9dacc38bea2cf32adf627a8421a"
 
+"@types/chrome@0.0.127":
+  version "0.0.127"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.127.tgz#9e29f351d558f60e95326ceadc586fdcc824151b"
+  integrity sha512-hBB9EApLYKKn2GvklVkTxVP6vZvxsH9okyIRUinNtMzZHIgIKWQk/ESbX+O5g4Bihfy38+aFGn7Kl7Cxou5JUg==
+  dependencies:
+    "@types/filesystem" "*"
+    "@types/har-format" "*"
+
 "@types/chrome@0.0.86":
   version "0.0.86"
   resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.86.tgz#1026ef8e76db4fde1859cae858d73236fe670d69"
@@ -766,6 +774,11 @@
     "@types/events" "*"
     "@types/minimatch" "*"
     "@types/node" "*"
+
+"@types/har-format@*":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@types/har-format/-/har-format-1.2.5.tgz#4f6648814d0fdcb6a510e3364a9db439a753c4b1"
+  integrity sha512-IG8AE1m2pWtPqQ7wXhFhy6Q59bwwnLwO36v5Rit2FrbXCIp8Sk8E2PfUCreyrdo17STwFSKDAkitVuVYbpEHvQ==
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -5678,15 +5691,23 @@ webext-additional-permissions@^0.1.0:
   dependencies:
     "@types/chrome" "0.0.86"
 
+webext-additional-permissions@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/webext-additional-permissions/-/webext-additional-permissions-1.1.0.tgz#e74c9bb70678ba1586cd7528cc973d6482cc7286"
+  integrity sha512-t3kOZAaK+g1Q/1pjQQKhSrYqBfXKiGNdXk/UxJn9DfCyTSNFsLZ0byJ1zHe2CU22ChbGuK0Hw0rYLBMy9sVHFw==
+  dependencies:
+    "@types/chrome" "0.0.127"
+
 webext-detect-page@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/webext-detect-page/-/webext-detect-page-1.0.3.tgz#a0d6107e5e14c9b10e3707f64ff6504c49fded5d"
 
-webext-domain-permission-toggle@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/webext-domain-permission-toggle/-/webext-domain-permission-toggle-1.0.0.tgz#6f9a6d3234ffe596921d1be5ae8823ef5b02ebd2"
+webext-domain-permission-toggle@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/webext-domain-permission-toggle/-/webext-domain-permission-toggle-1.0.1.tgz#e0b2a3acbc5edc523c5d19e86c87aff79e6b562e"
+  integrity sha512-vP3Io5KB+9YSlexDpSykcPKyu/U9pH07YGRIN1snwl92mvHy0aQlOmwYhAdfxLf4KKT7E1te1Bo0+ZvZJYFK2g==
   dependencies:
-    webext-additional-permissions "^0.1.0"
+    webext-additional-permissions "^1.0.0"
 
 webext-dynamic-content-scripts@^6.0.3-0:
   version "6.0.3-0"
